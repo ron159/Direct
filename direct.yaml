@@ -1,7 +1,7 @@
 payload:
   # 应直连的站点
   
-  - DOMAIN-SUFFIX,edge.activity.windows.com
+  - DOMAIN-SUFFIX,activity.windows.com
   - DOMAIN-SUFFIX,snapdrop.net
   - DOMAIN-SUFFIX,time.is
   - DOMAIN-SUFFIX,browser.events.data.microsoft.com
