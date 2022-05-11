@@ -1,0 +1,6 @@
+payload:
+  # 应直连的站点
+  
+  - DOMAIN-SUFFIX,activity.windows.com
+  - DOMAIN-SUFFIX,snapdrop.net
+  - DOMAIN-SUFFIX,time.is
