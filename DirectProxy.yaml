@@ -1,3 +1,4 @@
 payload:
 - DOMAIN-SUFFIX,raw.githubusercontent.com
 - DOMAIN-SUFFIX,github.com
+- DOMAIN-SUFFIX,jsdelivr.net
