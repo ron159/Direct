@@ -7,10 +7,13 @@ payload:
   - DOMAIN-SUFFIX,browser.events.data.microsoft.com
   - DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com
   - DOMAIN-SUFFIX,speedtest.net
+  # PT
+  - DOMAIN-KEYWORD,pterclub
+  - DOMAIN-KEYWORD,hdarea
   - DOMAIN-KEYWORD,m-team
+  # techkoala
   - DOMAIN,techkoala.net
   - DOMAIN,www.techkoala.net
   - DOMAIN,zoo.techkoala.net
   - DOMAIN,zoom.techkoala.net
-  - DOMAIN,pterclub.net
 
