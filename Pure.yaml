@@ -1,47 +1,80 @@
 payload:
-    - DOMAIN-SUFFIX,perplexity.ai
-    - DOMAIN-KEYWORD,openai
-    - DOMAIN-SUFFIX,auth0.com
-    - DOMAIN-SUFFIX,challenges.cloudflare.com
-    - DOMAIN-SUFFIX,chatgpt.com
-    - DOMAIN-SUFFIX,client-api.arkoselabs.com
-    - DOMAIN-SUFFIX,events.statsigapi.net
-    - DOMAIN-SUFFIX,featuregates.org
-    - DOMAIN-SUFFIX,identrust.com
-    - DOMAIN-SUFFIX,intercom.io
-    - DOMAIN-SUFFIX,intercomcdn.com
-    - DOMAIN-SUFFIX,oaistatic.com
-    - DOMAIN-SUFFIX,oaiusercontent.com
-    - DOMAIN-SUFFIX,openai.com
-    - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-    - DOMAIN-SUFFIX,sentry.io
-    - DOMAIN-SUFFIX,stripe.com
-    - DOMAIN-SUFFIX,anthropic.com
-    - DOMAIN-KEYWORD,anthropic
-    - DOMAIN-KEYWORD,claude
-    - DOMAIN,api.githubcopilot.com
-    - DOMAIN,api.groq.com
-    - DOMAIN,api.together.xyz
-    - DOMAIN,console.groq.com
-    - DOMAIN,copilot-proxy.githubusercontent.com
-    - DOMAIN,sydney.bing.com
-    - DOMAIN-SUFFIX,ai.azure.com
-    - DOMAIN-SUFFIX,anthropic.com
-    - DOMAIN-SUFFIX,auth0.com
-    - DOMAIN-SUFFIX,chatgpt.com
-    - DOMAIN-SUFFIX,client-api.arkoselabs.com
-    - DOMAIN-SUFFIX,copilot.cloud.microsoft
-    - DOMAIN-SUFFIX,copilot.microsoft.com
-    - DOMAIN-SUFFIX,events.statsigapi.net
-    - DOMAIN-SUFFIX,featuregates.org
-    - DOMAIN-SUFFIX,grazie.ai
-    - DOMAIN-SUFFIX,grazie.aws.intellij.net
-    - DOMAIN-SUFFIX,identrust.com
-    - DOMAIN-SUFFIX,intercom.io
-    - DOMAIN-SUFFIX,intercomcdn.com
-    - DOMAIN-SUFFIX,meta.ai
-    - DOMAIN-SUFFIX,mistral.ai
-    - DOMAIN-SUFFIX,oaistatic.com
-    - DOMAIN-SUFFIX,oaiusercontent.com
-    - DOMAIN-SUFFIX,sora.com
-    - DOMAIN-SUFFIX,ping0.cc
+  # --- OpenAI (ChatGPT, Sora, DALL-E) ---
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-KEYWORD,openai
+
+  # --- Anthropic (Claude) ---
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
+
+  # --- Microsoft (Copilot, Bing AI, Azure AI, GitHub Copilot) ---
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,api.githubcopilot.com
+  - DOMAIN,copilot-proxy.githubusercontent.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft
+  - DOMAIN-SUFFIX,ai.azure.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,azureedge.net
+
+  # --- Google (Gemini, AI Studio, DeepMind) ---
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+
+  # --- Meta (Meta AI) ---
+  - DOMAIN-SUFFIX,meta.ai
+
+  # --- Mistral AI ---
+  - DOMAIN-SUFFIX,mistral.ai
+
+  # --- Perplexity AI ---
+  - DOMAIN-SUFFIX,perplexity.ai
+
+  # --- Groq ---
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN,api.groq.com
+  - DOMAIN,console.groq.com
+
+  # --- xAI (Grok) ---
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+
+  # --- Together AI ---
+  - DOMAIN-SUFFIX,together.xyz
+  - DOMAIN,api.together.xyz
+
+  # --- JetBrains (Grazie) ---
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+
+  # --- Infrastructure & Component (Shared CDN, Auth, Verification) ---
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,workos.com
+
+  # --- Tools ---
+  - DOMAIN-SUFFIX,ping0.cc
