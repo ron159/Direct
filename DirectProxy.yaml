@@ -1,14 +1,19 @@
 payload:
-- DOMAIN-SUFFIX,raw.githubusercontent.com
-- DOMAIN-SUFFIX,github.com
-- DOMAIN-SUFFIX,jsdelivr.net
-- DOMAIN-SUFFIX,api.telegram.org
-- DOMAIN-SUFFIX,nginx.org
-- DOMAIN-SUFFIX,byr.pt
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-- DOMAIN-SUFFIX,services.googleapis.cn
-- DOMAIN-SUFFIX,googleapis.cn
-- DOMAIN-SUFFIX,duolingo.com
-- DOMAIN-SUFFIX,duolingo.cn
-- DOMAIN-SUFFIX,fsm.name
+  - DOMAIN-KEYWORD,githubusercontent
+  - DOMAIN-KEYWORD,githubassets
+  - DOMAIN-KEYWORD,v2ex
+  - DOMAIN-KEYWORD,instagram
+
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,api.telegram.org
+  - DOMAIN-SUFFIX,nginx.org
+  - DOMAIN-SUFFIX,byr.pt
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,duolingo.com
+  - DOMAIN-SUFFIX,duolingo.cn
 
